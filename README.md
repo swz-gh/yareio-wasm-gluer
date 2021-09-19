@@ -5,8 +5,8 @@ This is a faster version of [L0laapk3's yare.io-wasm](https://github.com/L0laapk
 ## Installation
 
 - Make sure you have go installed
+- Run `go install github.com/swz-gh/yareio-wasm-gluer`
 - Make sure `~/go/bin` (`%USERPROFILE%/go/bin` on windows) is in your PATH
-- Run `go install github.com/swz-gh/yareio-wasm-gluer
 
 ## Usage
 
