@@ -4,6 +4,13 @@ This is a faster version of [L0laapk3's yare.io-wasm](https://github.com/L0laapk
 
 ## Installation
 
+### npm way (recommended)
+
+- Make sure node and npm is installed
+- Run `npm i -g yareio-wasm-gluer`
+
+### Go way (not recommended)
+
 - Make sure you have go installed
 - Run `go install github.com/swz-gh/yareio-wasm-gluer@latest`
 - Make sure `~/go/bin` (`%USERPROFILE%/go/bin` on windows) is in your PATH
