@@ -1,0 +1,37 @@
+{
+  "name": "yareio-wasm-gluer",
+  "version": "0.1.2",
+  "description": "A fast wasm gluer for yare",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swz-gh/yareio-wasm-gluer.git"
+  },
+  "keywords": [
+    "yare",
+    "io",
+    "yareio",
+    "wasm",
+    "webassembly",
+    "gluer",
+    "builder"
+  ],
+  "author": "swz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swz-gh/yareio-wasm-gluer/issues"
+  },
+  "homepage": "https://github.com/swz-gh/yareio-wasm-gluer#readme",
+  "goBinary": {
+    "name": "yareio-wasm-gluer",
+    "path": "./bin",
+    "url": "https://github.com/swz-gh/yareio-wasm-gluer/releases/download/v{{version}}/yareio-wasm-gluer_{{version}}_{{platform}}_{{arch}}.tar.gz"
+  },
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  }
+}
