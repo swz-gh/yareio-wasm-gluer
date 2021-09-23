@@ -2,3 +2,4 @@ build.js
 test.wasm
 yareio-wasm-gluer
 dist/
+node_modules
