@@ -1,7 +1,7 @@
 # .goreleaser.yml
 # Build customization
 builds:
-  - binary: drum-roll
+  - binary: yareio-wasm-gluer
     goos:
       - windows
       - darwin
