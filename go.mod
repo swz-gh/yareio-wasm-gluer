@@ -1,4 +1,4 @@
-module github.com/swz-gh/yareio-wasm-gluer
+module github.com/swz-git/yareio-wasm-gluer
 
 go 1.17
 
